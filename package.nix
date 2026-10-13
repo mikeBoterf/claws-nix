@@ -6,13 +6,13 @@
 
 buildGoModule rec {
   pname = "claws";
-  version = "0.17.0";
+  version = "0.18.0";
 
   src = fetchFromGitHub {
     owner = "clawscli";
     repo = "claws";
     rev = "v${version}";
-    hash = "sha256-z5QzvmyUpswcUqlDm92WAnjTWWFSDHFWAl1bnFZmGq4=";
+    hash = "sha256-CnnU4OCO1Mslf7+fSu3scKHQ2LJWG+XxMtTyk9CIVYk=";
   };
 
   vendorHash = "sha256-Ef/2Xs15E5noUYJk2J9k48g0kfTPB6v+D9uUHdOyya0=";
